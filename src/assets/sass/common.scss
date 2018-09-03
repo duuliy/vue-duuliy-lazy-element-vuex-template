@@ -1,0 +1,27 @@
+$success:#49b01c;
+$danger:#f56c6c;
+$warning:#e6a23c;
+$success:#67c23a;
+$info:#909399;
+$primary:#5BA4F6;
+$slider:#3E414E;
+$tabls:#666C86;
+$tabColor:#B7BAC8;
+$active:#499AFF;
+
+@mixin flex-w-center { 
+    display:flex;
+    justify-content: space-around;
+}
+
+
+@mixin flex-h-center { 
+    display:flex;
+    align-items: center;
+}
+
+@mixin flex-wh-center { 
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}

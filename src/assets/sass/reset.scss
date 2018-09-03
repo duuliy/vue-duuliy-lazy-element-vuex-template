@@ -1,0 +1,23 @@
+//菜单导航重置
+.el-menu-item{
+    padding: 0 45px !important;
+    height: 60px;
+    i{
+        font-size: 23px;
+        color: #A7B1D8;
+        margin-right: 23px;
+    }
+    span{
+        color: #A7B1D8;
+        font-size: 18px;
+    }
+    &:hover{
+        background-color: $active;
+    }
+    &.is-active{
+        background-color: $active;
+        span{
+            color: #fff;
+        }
+    }
+}
