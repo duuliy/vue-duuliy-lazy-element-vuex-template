@@ -1,6 +1,6 @@
 # cloud-music
 
-> A Vue.js project
+> 个人使用 vue企业级后台系统模板
 
 ## Build Setup
 
